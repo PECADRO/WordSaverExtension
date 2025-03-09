@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Word Highlighter",
+  "name": "Word Saver",
   "version": "1.0",
-  "description": "Highlight and save words with a download option",
+  "description": "Highlight and save words",
   "permissions": [
     "activeTab",
     "storage",
@@ -20,10 +20,9 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+    "default_popup": "popup.html",
+    "default_icon": "icon16.png"
+
     }
   }
 }
